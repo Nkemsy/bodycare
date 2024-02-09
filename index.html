@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Body Care</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
     <div class="hero-section">
@@ -20,13 +20,13 @@
                     <input type="Number" class="down">
                     <label for="Password">Password</label>
                     <div class="password-container">
-                        <input type="Password" id="passwordInput" class="down">
-                        <i class=" fa fa-eye-slash" onclick="togglePassword()"></i>
+                        <input type="Password" id="passwordfield" class="down">
+                        <i class="toggle-password fas fa-eye-slash" onclick="togglePasswordVisibility()"></i>
                     </div>
                     <label for="Password">Confirm Password</label>
                     <div class="password-container">
-                        <input type="Password" id="psswordInput" class="down">
-                        <i class="fa fa-eye-slash" onclick="toglePassword()"></i>
+                        <input type="Password" id="passwordfield1" class="down">
+                        <i class="toggle-password1 fas fa-eye-slash" onclick="togglePasswordVisibility1()"></i>
                     </div>
                     
                 </div>
@@ -34,7 +34,7 @@
                     <input type="button" value="Register"><br>
                 </div>
                 <div class="Google">
-                    <a href=""><span id="sp"><input type="button1" value="Register with Google"> </a>
+                    <a href=""><input type="button" value="Register with Google"></a>
                 </div>
                 
             </form>

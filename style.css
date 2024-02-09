@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 body{
     font-family: montserrat;
     background-image:url(./logo4test/Homepage.png);
     background-repeat: no-repeat;
     background-size: cover none;
+    width: 1440px;
+    height: 948px;
+    overflow-x: hidden;
+
+    
 }
 div.hero-section{
     width: 589px;
     height: 883px;
-    margin-top: 70px;
+    margin-top: 65px;
     margin-left: 23px;
     background-color: rgba(231, 234, 342, 0.38);
     border: none;
@@ -20,11 +24,11 @@ div.container{
     border: none;
     width: 346px;
     height: 694px;
-    top: 94px;
+    top: 84px;
     left: 121px;
 }
 .right{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .heading{
     font-size: 20px;
@@ -57,7 +61,7 @@ padding: 5px 5px;
     display: inline-block;
     
 }
-#passwordInput, #psswordInput{
+#passwordfield, #passwordfield1{
     padding: 5px 45px 5px 5px;
     background-color: #fcfcfc;
     border-radius: 8px;
@@ -67,7 +71,7 @@ padding: 5px 5px;
     
 }
     
-.fa{
+.toggle-password, .toggle-password1{
     position: absolute;
     right: 20px;
     top: 40%;
@@ -86,10 +90,13 @@ input[type=button]{
     
 }
 input[type=button]:hover{
-    background-color: #033805;
+   background-color: #033805;
     color: rgb(255, 238, 0);
 }
-input[type=button1]{
+.Google{
+    margin-top: 10px;
+}
+a input[type=button] {
     font-weight: 500;
     border-radius: 8px;
     width: 345px;
@@ -99,16 +106,16 @@ input[type=button1]{
     color: #6da01e;
     text-align: center;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 15px;
 }
-input[type=button1]{
+a input[type=button] {
     background-image: url(./logo4test/google.png);
     background-repeat: no-repeat;
     background-position: 248px 12px;
     background-size: 24px 24px;
         
 }
-input[type=button1]:hover{
+a input[type=button]:hover {
     background-color: #033805;
     color: #fff;
 }

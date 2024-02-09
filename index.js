@@ -1,9 +1,29 @@
-function togglePassword() {
-    const passwordInput = document.getElementById("passwordInput"); 
-    passwordInput.type === "password" ? passwordInput.type = "text" : passwordInput.type = "password";        
-} 
+function togglePasswordVisibility() {
+    var passwordfield = document.getElementById("passwordfield");
+    var eyeIcon = document.querySelector(".toggle-password");
 
-function toglePassword() {
-    const passwordInput = document.getElementById("psswordInput"); 
-    passwordInput.type === "password" ? passwordInput.type = "text" : passwordInput.type = "password";        
-} 
+    if (passwordfield.type === "password") {
+        passwordfield.type = "text";
+        eyeIcon.classList.add("fa-eye-slash");
+        eyeIcon.classList.remove("fa-eye");
+    } else {
+        passwordfield.type = "password";
+        eyeIcon.classList.add("fa-eye");
+        eyeIcon.classList.remove("fa-eye-slash");
+    }
+}
+
+function togglePasswordVisibility1() {
+    var passwordfield = document.getElementById("passwordfield1");
+    var eyeIcon = document.querySelector(".toggle-password1");
+
+    if (passwordfield.type === "password") {
+        passwordfield.type = "text";
+        eyeIcon.classList.add("fa-eye-slash");
+        eyeIcon.classList.remove("fa-eye");
+    } else {
+        passwordfield.type = "password";
+        eyeIcon.classList.add("fa-eye");
+        eyeIcon.classList.remove("fa-eye-slash");
+    }
+}
